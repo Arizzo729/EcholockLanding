@@ -76,10 +76,20 @@ button:hover {
 }
 
 footer {
-  margin-top: 20px;
+  margin-top: 25px;
   font-size: 12px;
-  opacity: 0.6;
+  opacity: 0.75;
   text-align: center;
+}
+
+footer a {
+  color: #00d4ff;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 </style>
 </head>
@@ -90,7 +100,7 @@ footer {
   <h1>Echo Support</h1>
   <p>Send us a message and we’ll respond as soon as possible.</p>
 
-  <form name="support" method="POST" data-netlify="true">
+  <form method="POST" name="support" data-netlify="true">
     <input type="hidden" name="form-name" value="support">
 
     <label>Your Email</label>
@@ -103,10 +113,12 @@ footer {
   </form>
 
   <footer>
-    © 2026 Echo
+    © 2026 Echo<br><br>
+    <a href="/privacy-policy.html">Privacy Policy</a> |
+    <a href="/terms-of-service.html">Terms of Service</a>
   </footer>
+
 </div>
 
 </body>
 </html>
-
