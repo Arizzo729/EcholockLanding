@@ -1,2 +1,2 @@
-# EcholockLanding
+# EchoLanding
 AppSupport
